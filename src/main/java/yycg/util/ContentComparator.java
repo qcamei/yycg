@@ -10,6 +10,7 @@ public class ContentComparator  implements Comparator {
 		int p2 = Integer.parseInt((String)o2);
 		if (p1 < p2)
 			return 0;
+		
 		else
 			return 1;
 	}
